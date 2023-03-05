@@ -1,4 +1,6 @@
 # mpy-Framebuf-boost
+2023年3月修改，请阅读readme.txt
+
 FrameBuffer 增加多字体和中文支持 BMP文件操作
 中文支持，需要加载对应的字库，使用font_load("文件名")，文件名需要注意大小写，释放字库使用font_free()
 字库分为三类，gb2312开始的是6763汉字的全字库，内置unicode的查找表，在mpy中可以直接text方法进行中英文混合显示。
